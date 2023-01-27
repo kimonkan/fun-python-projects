@@ -6,8 +6,18 @@ computerOptions = ["Rock", "Paper", "Scissors"]
 # assign random play to computer
 computer = computerOptions[randint(0, 2)]
 
-player = input("Rock, Paper or Scissors?")
+playerFlag = False
 
+while playerFlag != True:
+  player = input("Rock, Paper or Scissors?")
+  player = player.lower()
+  player = player.capitalize()
+  if player == "Rock" or player == "Paper" or player == "Scissors":
+    playerFlag = True
+  else:
+    print("Retype your answer correctly")
+    playerFlag == False
+    
 if player == computer:
   print("Tie!")
 elif player == "Rock":
