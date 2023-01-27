@@ -4,4 +4,5 @@
 
 - Rock Paper Scissors  
   [v1.0] covers the basics of the game  
-  [v1.1] adds loop until player gives sufficient answer
+  [v1.1] adds loop until player gives sufficient answer  
+  [v1.2] gives player choice to replay or stop playing
